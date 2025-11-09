@@ -14,12 +14,11 @@ If you're not using foot, in addition to background and text colours, make sure 
 
 For waybar, if you need additional modules (eg: a clock), put them in the clump in the css file. It should look fine in most cases. 
 
-For firefox, you only need to download the xpi file and open with firefox... I think?
-
 # Keybinds
 Default niri with Mod+< (less) for toggling waybar and Mod+Shift+S for screenshots and Mod+Ctrl+S for screenshot-screen instead. Be sure to change them if you are not a fan. 
 
 # Firefox
+https://color.firefox.com/?theme=XQAAAAL3AQAAAAAAAABBKYhm849SCicxcT_m3XcGHf3p79EhVQAoSsDua6aHpbvP82uCcyTn_JCyv54XHQQsWLlJt4kQHhaBbJ1y4SnJ6dHhH5Cfkn4hwSu9i7T-T8juEGUHofR-DKVTB2RETMgrW5xxHVltOO4V7T9vFsVk1yKlzVzLqP7epLYMt1bd_jgZymtesoEfJt1Sz1EKQkyR7y8QTKK9mJ1cs5oO-D7L2VhgI7ZLb1Lzne2e4-nGtl2goCyJGCdahTWHq9DXxpSFN0vKjIKqztjFc0NFvj-6Wu7KYPh_QbjF6E1IZaLBBIDJoPFadnvKjiArbsrYopc06UC4BNmdh___OP4QAA
 Currectly, it is kind of ugly, sorry. Hopefully, the auto-update thing will work and it will be better soon.
 
 # Icons
