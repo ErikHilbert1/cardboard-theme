@@ -12,7 +12,7 @@ If you're using lf and foot, make sure that the previewer script is executable s
 If you're not using foot, in addition to background and text colours, make sure that terminal colours 16=#b3b5b2 17=#cccac2 for bash prompt and vim bar/numbers to look right.
 
 # Firefox
-Currectly, it is kind of ugly, sorry. Hopefully, it will be better soon
+Currectly, it is kind of ugly, sorry. Hopefully, it will be better soon.
 
 # Icons
 I might make some in the future for this theme when I have the time.
