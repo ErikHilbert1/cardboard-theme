@@ -14,6 +14,8 @@ If you're not using foot, in addition to background and text colours, make sure 
 
 For waybar, if you need additional modules (eg: a clock), put them in the clump in the css file. It should look fine in most cases. 
 
+For firefox, you only need to downloads the xpi file and open with firefox... I think?
+
 # Keybinds
 Default niri with Mod+< (less) for toggling waybar and Mod+Shift+S for screenshots and Mod+Ctrl+S for screenshot-screen instead. Be sure to change them if you are not a fan. 
 
