@@ -1,5 +1,5 @@
 # Cardboard-theme
-A desaturated, light colour scheme
+A desaturated, light theme
 <img width="1080" height="675" alt="image" src="https://github.com/user-attachments/assets/33a58cd7-b4c5-4eec-b215-4a0879ef9a46" />
 
 # Name
