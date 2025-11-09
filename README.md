@@ -18,7 +18,7 @@ For waybar, if you need additional modules (eg: a clock), put them in the clump 
 Default niri with Mod+< (less) for toggling waybar and Mod+Shift+S for screenshots and Mod+Ctrl+S for screenshot-screen instead. Be sure to change them if you are not a fan. 
 
 # Firefox
-Currectly, it is kind of ugly, sorry. Hopefully, it will be better soon.
+Currectly, it is kind of ugly, sorry. Hopefully, the auto-update thing will work and it will be better soon.
 
 # Icons
 I might make some in the future for this theme when I have the time.
