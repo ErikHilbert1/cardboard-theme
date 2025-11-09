@@ -6,7 +6,7 @@ A desaturated, light colour scheme
 When I first made this theme, I wanted it to have a resemblance to have a paper-y feel. Unfortunately, (fortunately?,) "paper" as a theme name was already taken. Thus, cardboard. 
 
 # Installation
-I'm probably going to try making an installation script for this eventually, but for now, you have to manually copy the files to where they should be or add them to your configuration. 
+I'm probably going to try making an installation script for this eventually, but for now, you have to manually copy the files to where they should be or add them to your configuration. Sorry.
 
 If you're using lf and foot, make sure that the previewer script is executable so that you can preview your pictures :)
 
