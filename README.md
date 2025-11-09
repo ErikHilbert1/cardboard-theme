@@ -3,7 +3,7 @@ A desaturated, light colour scheme
 <img width="1080" height="675" alt="image" src="https://github.com/user-attachments/assets/33a58cd7-b4c5-4eec-b215-4a0879ef9a46" />
 
 # Name
-When I first made this theme, I wanted it to have a resemblance to have a paper-y feel. Unfortunately, (fortunately?,) "paper" as a theme name was already taken. Thus, cardboard. 
+When I first made this theme, I wanted it to  have a paper-y feel. Unfortunately, (fortunately) "paper" as a theme name was already taken. Thus, cardboard. 
 
 # Installation
 I'm probably going to try making an installation script for this eventually, but for now, you have to manually copy the files to where they should be or add them to your configuration. Sorry.
