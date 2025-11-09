@@ -1,0 +1,92 @@
+// -*- mode: jsonc -*-
+{
+    "layer": "top", // Waybar at top layer
+    "exclusive": true,
+    "reload-on-style-change": true,
+    "position": "left", // Waybar position (top|bottom|left|right)
+    "height": 1205, // Waybar height (to be removed for auto height)
+    "width": 40, // Waybar width
+    "spacing": 0, // Gaps between modules (4px)
+    // Choose the order of the modules
+    "modules-left": [
+    	"custom/power",
+	"custom/firefox",
+	"custom/anki"
+    ],
+    "modules-center": [
+    ],
+    "modules-right": [
+        "mpd",
+	"cpu",
+	"memory",
+        "network",
+	"pulseaudio#microphone",
+	"pulseaudio#volume",
+        "power-profiles-daemon",
+	"battery"
+    ],
+    "cpu": {
+        "format": "{usage}",
+        "tooltip": false
+    },
+    "memory": {
+        "format": "{}",
+	"tooltip": false
+    },
+    "battery": {
+        "format": "{icon}",
+        "format-full": "{icon}",
+        "format-charging": "{icon}",
+        "format-plugged": "{icon}",
+	"tooltip": false,
+        "format-icons": {
+	"default": ["󰂎", "󰁺", "󰁻", "󰁼", "󰁽", "󰁾", "󰁿", "󰂀", "󰂁", "󰂂", "󰁹"],
+	"charging": ["󰢟", "󰢜", "󰂆", "󰂇", "󰂈", "󰢝", "󰂉", "󰢞", "󰂊", "󰂋", "󰂅"]
+	}
+    },
+    "network": {
+        "format-wifi": "{icon}",
+        "format-disconnected": "{icon}",
+	"tooltip": false,
+	"format-icons": ["󰤯", "󰤟", "󰤢", "󰤥", "󰤨"]
+    },
+    "pulseaudio#volume": {
+        "format": "{icon}",
+        "format-muted": "",
+	"tooltip": false,
+        "format-icons": {
+            "default": ["", "", ""]
+        }
+    },
+    "pulseaudio#microphone": {
+        "format": "{format_source}",
+        "format-muted": "{format_source}",
+	"tooltip": false,
+        "format-source": "",
+        "format-source-muted": ""
+    },
+    "custom/power": {
+        "format" : "⏻",
+		"tooltip": false,
+		"menu": "on-click",
+		"menu-file": "$HOME/.config/waybar/power_menu.xml", // Menu file in resources folder
+		"menu-actions": {
+			"shutdown": "shutdown",
+			"reboot": "reboot",
+			"suspend": "systemctl suspend",
+			"hibernate": "systemctl hibernate"
+		}
+    },
+    "custom/firefox": {
+	"format": "󰈹",
+	"tooltip": false,
+	"on-click": "firefox"
+
+    },
+    "custom/anki": {
+	"format": "",
+	"tooltip": false,
+	"on-click": "anki"
+
+   }
+}

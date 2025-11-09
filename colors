@@ -1,0 +1,174 @@
+# vim:ft=dircolors
+# (This is not a dircolors file but it helps to highlight colors and comments)
+
+# default values from dircolors
+# (entries with a leading # are not implemented in lf)
+# #no     00              # NORMAL
+# fi      00              # FILE
+# #rs     0               # RESET
+# di      01;34           # DIR
+# ln      01;36           # LINK
+# #mh     00              # MULTIHARDLINK
+# pi      40;33           # FIFO
+# so      01;35           # SOCK
+# #do     01;35           # DOOR
+# bd      40;33;01        # BLK
+# cd      40;33;01        # CHR
+# or      40;31;01        # ORPHAN
+# #mi     00              # MISSING
+# su      37;41           # SETUID
+# sg      30;43           # SETGID
+# #ca     30;41           # CAPABILITY
+# tw      30;42           # STICKY_OTHER_WRITABLE
+# ow      34;42           # OTHER_WRITABLE
+# st      37;44           # STICKY
+# ex      01;32           # EXEC
+
+# default values from lf (with matching order)
+# ln      01;36   # LINK
+# or      31;01   # ORPHAN
+# tw      01;34   # STICKY_OTHER_WRITABLE
+# ow      01;34   # OTHER_WRITABLE
+# st      01;34   # STICKY
+# di      01;34   # DIR
+# pi      33      # FIFO
+# so      01;35   # SOCK
+# bd      33;01   # BLK
+# cd      33;01   # CHR
+# su      01;32   # SETUID
+# sg      01;32   # SETGID
+# ex      01;32   # EXEC
+# fi      00      # FILE
+
+# file types (with matching order)
+ln      11;36   # LINK
+or      11;01   # ORPHAN
+tw      14      # STICKY_OTHER_WRITABLE
+ow      14      # OTHER_WRITABLE
+st      11;34   # STICKY
+di      11;34   # DIR
+pi      13      # FIFO
+so      11;35   # SOCK
+bd      13;01   # BLK
+cd      13;01   # CHR
+su      11;32   # SETUID
+sg      11;32   # SETGID
+ex      11;32   # EXEC
+fi      00      # FILE
+
+# archives or compressed (dircolors defaults)
+*.tar   11;31
+*.tgz   11;31
+*.arc   11;31
+*.arj   11;31
+*.taz   11;31
+*.lha   11;31
+*.lz4   11;31
+*.lzh   11;31
+*.lzma  11;31
+*.tlz   11;31
+*.txz   11;31
+*.tzo   11;31
+*.t7z   11;31
+*.zip   11;31
+*.z     11;31
+*.dz    11;31
+*.gz    11;31
+*.lrz   11;31
+*.lz    11;31
+*.lzo   11;31
+*.xz    11;31
+*.zst   11;31
+*.tzst  11;31
+*.bz2   11;31
+*.bz    11;31
+*.tbz   11;31
+*.tbz2  11;31
+*.tz    11;31
+*.deb   11;31
+*.rpm   11;31
+*.jar   11;31
+*.war   11;31
+*.ear   11;31
+*.sar   11;31
+*.rar   11;31
+*.alz   11;31
+*.ace   11;31
+*.zoo   11;31
+*.cpio  11;31
+*.7z    11;31
+*.rz    11;31
+*.cab   11;31
+*.wim   11;31
+*.swm   11;31
+*.dwm   11;31
+*.esd   11;31
+
+# image formats (dircolors defaults)
+*.jpg   11;35
+*.jpeg  11;35
+*.mjpg  11;35
+*.mjpeg 11;35
+*.gif   11;35
+*.bmp   11;35
+*.pbm   11;35
+*.pgm   11;35
+*.ppm   11;35
+*.tga   11;35
+*.xbm   11;35
+*.xpm   11;35
+*.tif   11;35
+*.tiff  11;35
+*.png   11;35
+*.svg   11;35
+*.svgz  11;35
+*.mng   11;35
+*.pcx   11;35
+*.mov   11;35
+*.mpg   11;35
+*.mpeg  11;35
+*.m2v   11;35
+*.mkv   11;35
+*.webm  11;35
+*.ogm   11;35
+*.mp4   11;35
+*.m4v   11;35
+*.mp4v  11;35
+*.vob   11;35
+*.qt    11;35
+*.nuv   11;35
+*.wmv   11;35
+*.asf   11;35
+*.rm    11;35
+*.rmvb  11;35
+*.flc   11;35
+*.avi   11;35
+*.fli   11;35
+*.flv   11;35
+*.gl    11;35
+*.dl    11;35
+*.xcf   11;35
+*.xwd   11;35
+*.yuv   11;35
+*.cgm   11;35
+*.emf   11;35
+*.ogv   11;35
+*.ogx   11;35
+
+# audio formats (dircolors defaults)
+*.aac   10;36
+*.au    10;36
+*.flac  10;36
+*.m4a   10;36
+*.mid   10;36
+*.midi  10;36
+*.mka   10;36
+*.mp3   10;36
+*.mpc   10;36
+*.ogg   10;36
+*.ra    10;36
+*.wav   10;36
+*.oga   10;36
+*.opus  10;36
+*.spx   10;36
+*.xspf  10;36

@@ -1,0 +1,70 @@
+* {
+    /* `otf-font-awesome` is required to be installed for icons */
+    font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 13px;
+}
+
+window#waybar {
+    background-color: #82949e;
+    color: #4a5353;
+    border: 2px solid #4a5353;
+    box-shadow: inset -2px 2px 0 0px #a1acae, inset 2px -2px 0px 0px #687677;
+}
+
+#custom-firefox,
+#custom-anki,
+#custom-power,
+#battery,
+#cpu,
+#memory,
+#network,
+#pulseaudio {
+background-color: #b3b5b2;
+margin-left: 4px;
+margin-right: 4px;
+margin-top: 2px;
+margin-bottom: 2px;
+padding-top: 8px;
+padding-bottom: 8px;
+border: 1px solid #4a5353;
+box-shadow: inset 2px -2px 0px 0px #cccac2, inset -2px 2px 0px 0px #e5dfd3;
+}
+
+#custom-firefox, #custom-anki, #battery, #network, #pulseaudio {
+font-size: 16px;
+}
+
+#custom-power {
+margin-top: 4px;
+}
+
+#battery {
+margin-bottom: 4px;
+}
+
+#cpu {
+border-bottom: none;
+margin-bottom: -2px;
+box-shadow: inset 2px 0px 0px 0px #cccac2, inset -2px 2px 0px 0px #e5dfd3;
+}
+
+#memory {
+margin-top: -2px;
+border-top: none;
+box-shadow: inset 2px -2px 0px 0px #cccac2, inset -2px 0px 0px 0px #e5dfd3;
+}
+
+#pulseaudio.microphone {
+border-bottom: none;
+margin-top: 2px;
+margin-bottom: -2px;
+border: 1px solid #4a5353;
+border-bottom: none;
+box-shadow: inset 2px -2px 0px 0px #cccac2, inset -2px 2px 0px 0px #e5dfd3;
+}
+
+#pulseaudio {
+margin-top: -4px;
+border-top: none;
+box-shadow: inset 2px -2px 0px 0px #cccac2, inset -2px 0px 0px 0px #e5dfd3;
+}
