@@ -9,7 +9,10 @@ When I first made this theme, I wanted it to have a resemblance to have a paper-
 I'm probably going to try making an installation script for this eventually, but for now, you have to manually copy the files to where they should be or add them to your configuration. 
 
 If you're using lf and foot, make sure that the previewer script is executable so that you can preview your pictures :)
+
 If you're not using foot, in addition to background and text colours, make sure that terminal colours 16=#b3b5b2 17=#cccac2 for bash prompt and vim bar/numbers to look right.
+
+For waybar, if you need additional modules (eg: a clock), put them in the plump in the css file. It should look fine in most cases. 
 
 # Firefox
 Currectly, it is kind of ugly, sorry. Hopefully, it will be better soon.
